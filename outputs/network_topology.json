@@ -1,0 +1,39 @@
+{
+    "summary": {
+        "total_devices": 3,
+        "total_connections": 1
+    },
+    "nodes": [
+        {
+            "mac": "00:b8:c2:35:67:dc",
+            "ips": [
+                "10.0.0.138"
+            ],
+            "label": "10.0.0.138\n(00:b8:c2:35:67:dc)"
+        },
+        {
+            "mac": "52:b4:5e:c9:79:75",
+            "ips": [
+                "10.0.0.7"
+            ],
+            "label": "10.0.0.7\n(52:b4:5e:c9:79:75)"
+        },
+        {
+            "mac": "00:b8:c2:4c:79:25",
+            "ips": [
+                "10.0.0.4"
+            ],
+            "label": "10.0.0.4\n(00:b8:c2:4c:79:25)"
+        }
+    ],
+    "edges": [
+        {
+            "source": "52:b4:5e:c9:79:75",
+            "target": "00:b8:c2:35:67:dc",
+            "interaction_count": 4,
+            "confidence_score": 100,
+            "requests": 0,
+            "replies": 4
+        }
+    ]
+}
