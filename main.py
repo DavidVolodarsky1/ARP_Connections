@@ -79,7 +79,6 @@ def main():
             
             # 3. Now get the summary - it will be 100% accurate
             summary = manager.get_summary()
-            manager.print_insights() # This will print the gateway/scammer alerts to console
             logger.info(f"Final Session Summary: Found {summary['total_devices']} unique devices and {summary['total_connections']} connections.")
             
             try:
